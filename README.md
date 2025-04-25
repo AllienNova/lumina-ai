@@ -54,6 +54,16 @@ See our [Implementation Plan](docs/implementation_plan.md) for the detailed deve
 
 Instructions for setting up the development environment and running the system will be added as implementation progresses.
 
+## Legal Notice - Intellectual Property Protection
+
+**DO NOT COPY WITHOUT EXPRESSED PERMISSION**
+
+The Lumina AI platform, including all source code, documentation, designs, algorithms, and associated materials, is proprietary intellectual property. All rights are reserved by AllienNova. This repository and its contents are made available for authorized development purposes only.
+
+Unauthorized copying, distribution, modification, public display, or public performance of this proprietary information is strictly prohibited. Any use of this intellectual property without explicit written permission from AllienNova is a violation of intellectual property rights and may result in legal action.
+
+For licensing inquiries or permission requests, please contact AllienNova directly.
+
 ## License
 
-[MIT License](LICENSE)
+[MIT License](LICENSE) applies only to authorized users with explicit permission from AllienNova.
