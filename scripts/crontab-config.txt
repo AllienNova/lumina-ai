@@ -1,0 +1,13 @@
+# Automated Backup Cron Configuration
+
+# Add these lines to crontab using:
+# crontab -e
+
+# Run backup script daily at 1:00 AM
+0 1 * * * /home/ubuntu/lumina-ai/scripts/backup.sh >> /home/ubuntu/backups/lumina-ai/cron-backup.log 2>&1
+
+# Run verification script daily at 2:00 AM
+0 2 * * * /home/ubuntu/lumina-ai/scripts/verify_repo.sh >> /home/ubuntu/backups/lumina-ai/cron-verify.log 2>&1
+
+# Run a quick verification every 4 hours during working hours
+0 8,12,16,20 * * * /home/ubuntu/lumina-ai/scripts/verify_repo.sh >> /home/ubuntu/backups/lumina-ai/cron-verify-quick.log 2>&1
